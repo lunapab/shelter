@@ -247,24 +247,37 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;   /* ← cambia flex-end por flex-start */
     padding: 0 20px 30px;
     gap: 20px;
     transition: box-shadow 0.3s, background 0.3s;
     cursor: pointer;
 }
 
+.card-img-wrapper {                /* ← bloque NUEVO */
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 -20px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: bottom center;  /* ← imagen pegada abajo del wrapper */
+}
+
 .card:hover {
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
-.card img {
-    width: 270px;
-    height: 270px;
-    object-fit: contain;
-    object-position: center;
-    margin: 0 -20px;
-}
 
 .card-name {
     font-family: Georgia, serif;
@@ -445,7 +458,7 @@ h2 {
     color: #545454;
 }
 
-.donation-text h5 {
+.donation-text h4 {
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 160%;
@@ -559,4 +572,103 @@ footer {
     width: 300px;
     object-fit: cover;
     object-position: top center;
+}
+
+/* Pets page */
+.pets-header {
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.pets-header .header-inner {
+    padding: 46px 40px 47px;
+}
+
+.pets-header .logo-title {
+    color: #545454;
+}
+
+.pets-header .logo-subtitle {
+    color: #545454;
+}
+
+.pets-header nav ul li a {
+    color: #545454;
+}
+
+.pets-header nav ul li a:hover {
+    color: #292929;
+}
+
+.pets-header nav ul li a.active {
+    color: #292929;
+    border-bottom: 2px solid #F1CDB3;
+}
+
+.pets-friends {
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.pets-friends-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.pets-friends-inner h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    text-align: center;
+    max-width: 500px;
+}
+
+.pets-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    gap: 30px;
+    width: 1200px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pag-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #F1CDB3;
+    background: transparent;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #545454;
+    transition: background 0.3s, color 0.3s;
+}
+
+.pag-btn:hover {
+    background: #F1CDB3;
+}
+
+.pag-btn--active {
+    background: #F1CDB3;
+    color: #292929;
+}
+
+.pag-btn--disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+    border-color: #CDCDCD;
+    color: #CDCDCD;
 }
