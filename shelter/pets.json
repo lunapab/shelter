@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Katrine",
+    "img": "assets/pets-katrine.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Katrine is a calm and dignified lady who loves cozy evenings and gentle petting. She gets along well with adults and older children.",
+    "age": "3 years",
+    "inoculations": ["panleukopenia", "viral rhinotracheitis", "calicivirus"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Jennifer",
+    "img": "assets/pets-jennifer.png",
+    "type": "Dog",
+    "breed": "Labrador",
+    "description": "Jennifer is a very playful and energetic girl who loves outdoor activities. She is great with children and other animals.",
+    "age": "2 years",
+    "inoculations": ["distemper", "parvovirus", "hepatitis"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Woody",
+    "img": "assets/pets-woody.png",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "description": "Woody is a kind and loyal companion who loves long walks and cuddles. He gets along with everyone.",
+    "age": "4 years",
+    "inoculations": ["distemper", "parvovirus", "rabies"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Sophia",
+    "img": "assets/pets-sophia.png",
+    "type": "Cat",
+    "breed": "Scottish Fold",
+    "description": "Sophia is a gentle and curious kitty who enjoys sunbathing and watching birds from the window.",
+    "age": "1 year",
+    "inoculations": ["panleukopenia", "calicivirus"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Timmy",
+    "img": "assets/pets-timmy.png",
+    "type": "Dog",
+    "breed": "Beagle",
+    "description": "Timmy is a cheerful and curious little dog who loves to explore the world around him. He is very sociable.",
+    "age": "3 years",
+    "inoculations": ["distemper", "parvovirus", "leptospirosis"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Charly",
+    "img": "assets/pets-charly.png",
+    "type": "Dog",
+    "breed": "Poodle",
+    "description": "Charly is an intelligent and playful dog who loves learning new tricks and spending time with his family.",
+    "age": "5 years",
+    "inoculations": ["distemper", "parvovirus", "rabies", "bordetella"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Scarlett",
+    "img": "assets/pets-scarlet.png",
+    "type": "Cat",
+    "breed": "Maine Coon",
+    "description": "Scarlett is a majestic and affectionate cat who loves to be the center of attention and enjoys long grooming sessions.",
+    "age": "2 years",
+    "inoculations": ["panleukopenia", "viral rhinotracheitis", "calicivirus", "rabies"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Freddie",
+    "img": "assets/pets-freddie.png",
+    "type": "Dog",
+    "breed": "Dalmatian",
+    "description": "Freddie is an energetic and loyal dog who loves to run and play. He is great with active families who enjoy outdoor adventures.",
+    "age": "1.5 years",
+    "inoculations": ["distemper", "parvovirus", "hepatitis", "rabies"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  }
+]
